@@ -43,7 +43,7 @@ a) export MY_HIPCHAT_TOKEN=<APIKEY>
 Examples
 ------
 
- #### generate csv and json output for all 1-1 chats
+ ##### generate csv and json output for all 1-1 chats
  ```python hipchat_exporter.py -k <APIKEY> --csv --archive```
 
  ##### generate csv and json output for all 1-1 chats
