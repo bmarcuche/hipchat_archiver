@@ -24,6 +24,7 @@ Options
 
 Running
 ------
+*(needed)*
 
 1) grant access to api
 
@@ -31,7 +32,7 @@ a) sign in: https://<yourcompany>.hipchat.com/account/api
    
 b) create new token with the following scopes:  View Group, View Messages
 
-(optional)
+*(optional)*
 
 2) export hipchat token
    
