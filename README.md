@@ -25,29 +25,30 @@ Options
 Running
 ------
 
- 1) grant access to api
- a) sign in: https://<yourcompany>.hipchat.com/account/api
- b) create new token with the following scopes:  View Group, View Messages
+1) grant access to api
 
- (optional)
+a) sign in: https://<yourcompany>.hipchat.com/account/api
+   
+b) create new token with the following scopes:  View Group, View Messages
 
- 2) export hipchat token
- a) export MY_HIPCHAT_TOKEN=<APIKEY>
+(optional)
 
- note) if you skipped step 2, provide the api key using the -k flag
+2) export hipchat token
+   
+a) export MY_HIPCHAT_TOKEN=<APIKEY>
 
- 3) run scripts
+(note) if you skipped step 2, provide the API token using the -k switch
 
 Examples
 ------
 
- # generate csv and json output for all 1-1 chats
+ #### generate csv and json output for all 1-1 chats
  ```python hipchat_exporter.py -k <APIKEY> --csv --archive```
 
- # generate csv and json output for all 1-1 chats
+ ##### generate csv and json output for all 1-1 chats
   ```python hipchat_exporter.py -k <APIKEY> --json --csv --archive```
 
- # generate csv and json output for 1-1 chats with specific user
+ ##### generate csv and json output for 1-1 chats with specific user
   ```python hipchat_exporter.py -k <APIKEY> --json --csv --archive -n "Bruno Marcuche"```
 
 
